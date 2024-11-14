@@ -1,3 +1,4 @@
+import scrollbar from "tailwind-scrollbar";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,12 +9,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      screens: {
+        "3xl": "1600px",
       },
     },
   },
-  plugins: [],
+  plugins: [scrollbar],
 };
+
 export default config;
