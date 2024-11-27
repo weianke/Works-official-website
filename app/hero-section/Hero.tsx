@@ -104,7 +104,16 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Creative Developer, Web Designer, Freelancer, Frontend Developer,
+            Creative Developer, Web Designer, Freelancer, Frontend Developer.
+          </p>
+        </motion.div>
+
+        <motion.div
+          className="max-w-[350px] hidden lg:block lg:max-w-[400px]"
+          variants={bodyAnimation}
+        >
+          <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
+            With 20 years of experience as a professional a grahpic designer.
           </p>
         </motion.div>
       </div>
