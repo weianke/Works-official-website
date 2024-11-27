@@ -40,7 +40,7 @@ export const preloaderAnimation = () => {
     .to(
       ".preloader",
       {
-        duration: 1.5,
+        duration: 1.3,
         height: "0vh",
         ease: "power3.easeOut",
         onComplete: mobileLanding(),
